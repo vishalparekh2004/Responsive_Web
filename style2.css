@@ -1,0 +1,412 @@
+      :root {
+        --primary: #06A3DA;
+        --secondary: #F57E57;
+        --light: #EEF9FF;
+        --dark: #091E3E;
+          } 
+          *{
+            font-family: "Roboto", sans-serif;
+          }
+          samll i,.top-shape{
+            background-color: var(--primary);
+          }
+          .first-top-bar{
+            background-color: var(--light);
+          }
+          #navabar nav .bar ul{
+            padding: 22px 10px;
+            font-size: 16px;
+            color: var(--dark);
+            outline: none;
+            transition: .5s;
+            font-weight: 700;
+          } 
+          .nav-item .nav-link {
+            padding: 5px 5px;
+          }
+          
+          .nav-item  .nav-link:hover,
+          .nav-item  .nav-link.active {
+            color:var(--primary);
+            border-bottom: 5px solid #06A3DA ;
+          }
+          #banner .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+          #banner .carousel-inner img{
+            object-fit:cover ;
+            object-position:0 -100px;
+          }
+        
+         #banner .carousel-indicators{
+          position: absolute;
+          bottom: 100px;
+      } 
+      /* #banner .carousel-inner .overlay{
+           width: 100%;
+          height: 100%;
+          position: absolute;
+          background-color:  rgba(9, 30, 62, 0.684);
+          content: '';
+          z-index: 0;
+          top: -100px; 
+      } */
+      #banner .carousel-inner img{
+        height: 700px;
+        width: 100%;
+      }
+      
+      #banner .carousel-caption
+      {
+       position: absolute;
+      left: 30% !important;
+      padding-top: 3.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: center;
+      top: 20% !important;
+      width: 40%; 
+
+     
+      }
+      #banner .carousel-caption h2{
+        font-size: 37px;
+        font-weight: 900;
+        line-height: 1.5;
+      }
+      #banner .carousel-caption a{
+        background-color: var(--secondary);
+        font-weight: 600;
+      }
+      #banner .carousel-caption a:hover{
+        transition: all 0.5s;
+        background-color: var(--primary);
+        
+      }
+      #About .abouts h5{
+        color:var(--primary);
+        font-weight: 500;
+      }
+      #About .abouts .section-title h5::before{
+        position: absolute;
+        content: "";
+        width: 50px;
+        height: 3px;
+        right: -65px;
+        bottom: 11px;
+        background: var(--primary);
+      }
+#About .abouts .section-title h5::after{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 3px;
+    right: -88px;
+    bottom: 11px;
+    background: var(--secondary);
+} 
+#About .abouts h4{
+  color: #6b6a75 !important;
+}
+#About .abouts.about_text{
+  color: #6b6a75 !important;
+  text-align: justify;
+}
+#About .abouts a{
+  background-color: var(--primary);
+  font-weight: 600;
+}
+
+#About .abouts a:hover{
+  transition: all 0.5s;
+  background-color: var(--secondary);
+  
+}
+#service .section-title h5{
+  color:var(--primary);
+        font-weight: 600;
+}
+#service .section-title h5::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  right: -65px;
+bottom: 11px;
+  background: var(--primary);
+}
+#service .section-title h5::after{
+position: absolute;
+content: "";
+width: 15px;
+height: 3px;
+right: -88px;
+bottom: 11px;
+background: var(--secondary);
+} 
+#service .card-body h4{
+  text-align: left;
+  color: #16567f;
+  font-weight: 600;
+}
+#service .card-body .course-title{
+  font-size: 16px;
+    color: #000;
+    line-height: 28px;
+    margin: 0 0 11px 0;
+}
+#service .card-body .course-util{
+    border-radius: 2px;
+    transition: .2s;
+    letter-spacing: 1px;
+    background: #ffffff;
+    color: #12557f;
+    line-height: 12px;
+}
+#service .card-body .course-util a{
+  font-weight: 600;
+}
+#service img{
+  border-radius: 20px;
+}
+ /* #service .overlay{
+  width: 96%;
+  height: 50%;
+  position: absolute;
+  background-color:  rgba(9, 30, 62, 0.342);
+  content: '';
+  z-index: 1;
+  border-radius: 20px;
+  top: 0; 
+}  */
+#Gallary .section-title h5{
+  color:var(--primary);
+  font-weight: 500;
+}
+#Gallary .section-title h5::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  right: -65px;
+  bottom: 11px;
+  background: var(--primary);
+  
+}
+#Gallary .section-title h5::after{
+position: absolute;
+content: "";
+width: 15px;
+height: 3px;
+right: -88px;
+bottom: 11px;
+background: var(--secondary);
+} 
+#Appointment .section-title h5{
+  color:var(--primary);
+  font-weight: 500;
+}
+#Appointment .section-title h5::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  right: -65px;
+  bottom: 11px;
+  background: var(--primary);
+  
+}
+#Appointment .section-title h5::after{
+position: absolute;
+content: "";
+width: 15px;
+height: 3px;
+right: -88px;
+bottom: 11px;
+background: var(--secondary);
+} 
+#Appointment from button{
+  background-color: var(--primary);
+  font-weight: 600;
+}
+
+#Appointment from button:hover{
+  transition: all 0.5s;
+  background-color: var(--secondary);
+}
+
+#Feedback .section-title h5{
+  color:var(--primary);
+  font-weight: 500;
+}
+#Feedback .section-title h5::before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  right: -65px;
+  bottom: 11px;
+  background: var(--primary);
+}
+#Feedback .section-title h5::after{
+position: absolute;
+content: "";
+width: 15px;
+height: 3px;
+right: -88px;
+bottom: 11px;
+background: var(--secondary);
+}    
+#Feedback from button{
+  background-color: var(--primary);
+  font-weight: 600;
+}
+#Feedback from button:hover{
+  transition: all 0.5s;
+  background-color: var(--secondary);
+}
+#Footer{
+  padding: 60px;
+    background-color: var(--dark);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: scale(-1);
+    margin-top: 5%;
+}
+#Footer .Main{
+  margin-top: -60px;
+  padding: 70px;
+  background-color: var(--primary);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  transform: scale(-1);
+}
+#Footer .Main form button{
+  margin-bottom: -31px;
+    margin-top: -115px;
+    margin-left: 300px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+#Contect .cMain{
+  background-color: var(--dark);
+  Max-width: 1600px;
+ 
+}
+#Contect .cMain .link{
+  padding-left: 40px;
+  
+}
+#Contect .cMain h3{
+  font-weight: 600;
+  font-size: 30px;
+}
+#Contect .cMain a{
+  text-decoration: none;
+  color: var(--light);
+  font-size: 15px;
+}
+#Contect .cMain p{
+  color: var(--light);
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  #banner .carousel-inner img{
+    height: 350px;
+    width: 100% !important;
+  }
+    #banner .carousel-caption {
+      position: absolute;
+      left: 12% !important;
+      padding-top: 3.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: center;
+      top: 0% !important;
+      width: 80%;
+      
+    }}
+    @media screen and (max-width: 404px){
+      #banner .carousel-caption h2{
+        font-size:18px;
+        font-weight: 900;
+        line-height: 2.5;
+      }
+    }
+      @media screen and (max-width: 1200px){
+        #Contect .cMain{
+          background-color: var(--dark);
+          height: 700px;
+        }
+
+      }
+      /* @media screen and (max-width:1200px){
+        #banner .carousel-inner .overlay{
+          height: 100% !important;
+        }
+      } */
+      @media screen and (max-width: 1325px){
+        /* #Contect .cMain{
+          height: 700px;
+        } */
+        #banner .carousel-inner .overlay{
+          height: 105%;
+        }
+
+      }
+      @media screen and (max-width: 576px){
+        #Contect .cMain{
+          height: 1400px;
+        }
+        
+      }
+      /* @media screen and (max-width: 2560px)
+      {
+        #banner .carousel-inner .overlay{
+        height: 118%;
+      }
+    }
+      @media screen and (max-width: 768px)
+      {
+        #banner .carousel-inner .overlay{
+        height: 124% !important;
+      }
+    }
+    @media screen and (max-width:576px){
+    #banner .carousel-inner .overlay{
+      height: 100% !important;
+    }  
+  }
+  @media screen and (max-width:1350px){
+    #banner .carousel-inner .overlay{
+      height: 108% !important;
+    }  
+  }
+  @media screen and (max-width: 1199px) {
+    #navabar .navbar-collapse {
+         position: absolute;
+         background: white;
+         box-shadow: 1px 1px 1px black;
+         width: 100%;
+         margin-top: 265px;
+         z-index: 9999;
+         padding-left: 28px;
+     }
+     #navabar nav .bar ul{
+     font-size: 8px;
+    color: var(--dark);
+    outline: none;
+    transition: .5s;
+    font-weight: 400;
+    margin-top: -24px;
+    margin-right: 167px;
+    overflow:hidden;
+     }
+     .nav-item .nav-link .dropdown-menu .show{
+      margin-top: 3px;
+      padding: 0px;
+      margin-left: -7px;
+    }
+  } */
